@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/styles.css" />
+    <link rel="stylesheet" href="styles.css" />
     <title>Survey Form</title>
   </head>
   <body>
@@ -55,15 +55,20 @@
         <fieldset>
           <label>
             which category would you like to apply for?
-            <input type="radio" name="id-type" /> Student
+            <br />
+            <input type="radio" name="id-type" class="inline" /> Student
           </label>
-          <label> <input type="radio" name="id-type" /> Staff </label>
+          <label>
+            <input type="radio" name="id-type" class="inline" /> Staff
+          </label>
         </fieldset>
         <fieldset>
           <label>
             What would you like? (choose as many as applies)
-            <input type="checkbox" name="snack" value="1" /> Tea
-            <input type="checkbox" name="snack" value="2" /> Coffee
+            <br />
+            <input type="checkbox" name="snack" value="1" class="inline" /> Tea
+            <input type="checkbox" name="snack" value="2" class="inline" />
+            Coffee
           </label>
         </fieldset>
         <fieldset>
