@@ -11,7 +11,7 @@
     <div class="container">
       <header class="header">
         <h1 id="title">Survey Form</h1>
-        <p id="description">This is a short survey form</p>
+        <p id="description">This is a survey form for a class</p>
       </header>
       <form id="survey-form">
         <fieldset>
@@ -31,6 +31,26 @@
               required
               placeholder="email for contact"
           /></label>
+          <label
+            >Enter your ID Number:
+            <input
+              type="number"
+              id="number"
+              min="1"
+              max="100"
+              required
+              placeholder="roll number"
+          /></label>
+        </fieldset>
+        <fieldset>
+          <label
+            >Would you like to present on the webinar?
+            <select id="dropdown">
+              <option value="">(select one)</option>
+              <option value="0">No</option>
+              <option value="1">Yes</option>
+            </select>
+          </label>
         </fieldset>
       </form>
     </div>
