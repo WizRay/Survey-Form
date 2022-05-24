@@ -31,7 +31,7 @@
               required
               placeholder="email for contact"
           /></label>
-          <label
+          <label id="number-label"
             >Enter your ID Number:
             <input
               type="number"
@@ -56,10 +56,10 @@
           <label>
             which category would you like to apply for?
             <br />
-            <input type="radio" name="id-type" class="inline" /> Student
+            <input type="radio" name="id-type" class="inline" value="1" /> Student
           </label>
           <label>
-            <input type="radio" name="id-type" class="inline" /> Staff
+            <input type="radio" name="id-type" class="inline" value="2" /> Staff
           </label>
         </fieldset>
         <fieldset>
@@ -82,7 +82,7 @@
             ></textarea>
           </label>
         </fieldset>
-        <input type="submit" value="Submit" />
+        <input type="submit" id="submit" value="Submit" />
       </form>
     </div>
   </body>
